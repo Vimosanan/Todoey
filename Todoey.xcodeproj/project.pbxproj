@@ -37,6 +37,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36200B752392DEC50063717D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36B4B10E23913E91008771B1 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36200B762392DECF0063717D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36B4B10C23913E91008771B1 /* TodoListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		36B4B0FC23913E91008771B1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +74,8 @@
 			children = (
 				36B4B10823913E91008771B1 /* AppDelegate.swift */,
 				36B4B10A23913E91008771B1 /* SceneDelegate.swift */,
-				36B4B10C23913E91008771B1 /* TodoListViewController.swift */,
-				36B4B10E23913E91008771B1 /* Main.storyboard */,
+				36200B762392DECF0063717D /* Controller */,
+				36200B752392DEC50063717D /* Views */,
 				36B4B11123913E93008771B1 /* Assets.xcassets */,
 				36B4B11323913E93008771B1 /* LaunchScreen.storyboard */,
 				36B4B11623913E93008771B1 /* Info.plist */,
